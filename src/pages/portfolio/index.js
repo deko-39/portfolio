@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { dataportfolio, meta } from "../../content_option";
@@ -15,6 +15,13 @@ export const Portfolio = () => {
     return array;
   };
 
+  const [images, setImages] = useState(shuffleArray(dataportfolio));
+  const handleChangeTag = (tag) => {
+    setImages(
+      shuffleArray(dataportfolio).filter((image) => !tag || image.tag === tag)
+    );
+  };
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -23,17 +30,48 @@ export const Portfolio = () => {
           <title> Portfolio | {meta.title} </title>{" "}
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="mt-3 pt-md-3">
           <Col lg="8">
             <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
+        <Row className="mb-1 mb-4 pt-md-1">
+          <Col className="col-auto">
+            <div
+              id="button_p"
+              className="btn btn-light btn-sm po_btn"
+              onClick={() => handleChangeTag("")}
+            >
+              All
+            </div>
+          </Col>
+          <Col className="col-auto">
+            <div
+              id="button_p"
+              className="btn btn-light btn-sm po_btn"
+              onClick={() => handleChangeTag("cosplay")}
+            >
+              Cosplay
+            </div>
+          </Col>
+          <Col className="col-auto">
+            <div
+              id="button_p"
+              className="btn btn-light btn-sm po_btn"
+              onClick={() => handleChangeTag("life")}
+            >
+              Life style
+            </div>
+          </Col>
+        </Row>
         <div className="mb-5 po_items_ho">
-          {shuffleArray(dataportfolio).map((data, i) => {
+          {images.map((data, i) => {
             return (
               <div key={i} className="po_item">
-                <img src={data.img} alt="" />
+                <a href={data.img} target="_blank">
+                  <img src={data.img} alt="" />
+                </a>
               </div>
             );
           })}
