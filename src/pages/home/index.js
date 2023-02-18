@@ -38,7 +38,7 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
-                <div className="pb-5">
+                <div className="pb-5 d-flex">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
                       My Portfolio

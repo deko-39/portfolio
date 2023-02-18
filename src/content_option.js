@@ -88,56 +88,64 @@ const projects = [
 
 const dataportfolio = [
   {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/329127448_5788643551242884_7125337967670662241_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=gPnyeJH-uUAAX_bt_wn&tn=8c0sLgpg_269_ARg&_nc_ht=scontent.fhan15-1.fna&oh=00_AfCwx6fmtJnT3RlHfp43bq95-KwXOd65jJ2Df09h218iCQ&oe=63F10211",
+    img: "https://i.imgur.com/s9Zvx7G.jpg",
     tag: "cosplay",
   },
   {
-    img: "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/328637597_670871478058628_4114871962334919848_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=Lw3rU3LmB8oAX_UjQjQ&tn=8c0sLgpg_269_ARg&_nc_ht=scontent.fhan15-2.fna&oh=00_AfAo8UEECp1zsae5orYc1ufYLXJoVNYaArRUBhe7c42KZg&oe=63F01AE2",
+    img: "https://i.imgur.com/azzjMCx.jpg",
     tag: "cosplay",
   },
   {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/329015004_715301456971944_5379919651841896750_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=3Rs02fAqYZcAX9zU8DY&_nc_ht=scontent.fhan15-1.fna&oh=00_AfAep7jug0VaJnbPNlTiHoiqon6vSS7ux2NHDkTszDj82g&oe=63F0B95A",
+    img: "https://i.imgur.com/wPKVe45.jpg",
     tag: "cosplay",
   },
   {
-    img: "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/329804444_1248636586077086_3417100665782921230_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=M1CgGOvq7ZcAX8pYdjr&_nc_ht=scontent.fhan15-2.fna&oh=00_AfDEOK9If4Go_0OCycWpun1s5__T3ZIiDoZjkBZRHSs11A&oe=63EFB69C",
+    img: "https://i.imgur.com/jI7Phsn.jpeg",
     tag: "cosplay",
   },
   {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/328524848_517870613782304_3400797803991950600_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=2njlssmwFL8AX_AFHLM&_nc_ht=scontent.fhan15-1.fna&oh=00_AfDyiLgELdsF_J6s3RiKX49ldVjorii6dmiqGmmDGM3gjQ&oe=63F0E27C",
-    tag: "life",
-  },
-  {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/327210824_906827247420908_2796474453163217013_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=bILJBdpZhIoAX_v5qd3&_nc_ht=scontent.fhan15-1.fna&oh=00_AfArQ8Ik_mzpzv2xKKTvo7f7e8QzJTmVKJ52AoB-x3Sp9g&oe=63F0B067",
-    tag: "life",
-  },
-  {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/327270433_3669978263229033_168044569116460921_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=xebMXzd0PckAX_4j7qT&tn=8c0sLgpg_269_ARg&_nc_ht=scontent.fhan15-1.fna&oh=00_AfBBvRN6e2ac9tvUBr05mRC35HGeMW2fO7GXvxv6vKdp_Q&oe=63F0B27D",
-    tag: "life",
-  },
-  {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/325883716_531282188807192_8325652573422756100_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=Yz60MjdzN-UAX8V18dy&tn=8c0sLgpg_269_ARg&_nc_ht=scontent.fhan15-1.fna&oh=00_AfAiR4OavKvDQsAXbTQSYMLRI5oWCniAKAi4lcJ1M6I5hQ&oe=63F08FE8",
-    tag: "life",
-  },
-  {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/323772737_1585705411878451_9093732990075820801_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=qjcgVUHy41UAX_VXjmE&_nc_ht=scontent.fhan15-1.fna&oh=00_AfD5dTgcwEZVjG2lenErBDA0C-O6p3ZymAchkvE5TBqmSQ&oe=63F01F17",
-    tag: "life",
-  },
-  {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/322488360_1122954341722057_7979199807287390261_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=aYR69Wv1PuIAX8xiMWl&tn=8c0sLgpg_269_ARg&_nc_ht=scontent.fhan15-1.fna&oh=00_AfACjQlyRg5lxz-8vIqg3ldApojDOOO5lbHennD4unP8PA&oe=63EF80B0",
-    tag: "life",
-  },
-  {
-    img: "https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/320729691_560442645554314_4029040667881094761_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=FxYc5ZNemC0AX-oPR0P&tn=8c0sLgpg_269_ARg&_nc_ht=scontent.fhan15-2.fna&oh=00_AfDzap_A00Tj0G-Tgj_ipCT5ik3Li69cB87qS9_GpUUsyg&oe=63EF2316",
-    tag: "life",
-  },
-  {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/317773907_3320982968214005_398602190201772099_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=DnQYHUoDmssAX_MhXKb&_nc_ht=scontent.fhan15-1.fna&oh=00_AfD3-4iogJnZS3JZcfnonNBQcnOvwJXyA_g28tPBJHNFQg&oe=63F0F376",
-    tag: "life",
-  },
-  {
-    img: "https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/329745372_578356600847028_7241895465523275130_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=ZgVuE9AEmxgAX_A8bro&_nc_ht=scontent.fhan15-1.fna&oh=00_AfA3xZ1Y3H8OcZ-5Txs1e2refI4zz3Np6cfq0gnaWTXFzw&oe=63EFEDB0",
+    img: "https://i.imgur.com/QQP266o.jpeg",
     tag: "cosplay",
+  },
+  {
+    img: "https://i.imgur.com/L7bSeGZ.jpg",
+    tag: "cosplay",
+  },
+  {
+    img: "https://i.imgur.com/6hYL926.jpg",
+    tag: "life",
+  },
+  {
+    img: "https://i.imgur.com/MbDlasg.jpg",
+    tag: "life",
+  },
+  {
+    img: "https://i.imgur.com/TDJ84xf.png",
+    tag: "life",
+  },
+  {
+    img: "https://i.imgur.com/0rxEtCs.jpg",
+    tag: "life",
+  },
+  {
+    img: "https://i.imgur.com/abRtxrK.png",
+    tag: "life",
+  },
+  {
+    img: "https://i.imgur.com/hxyP5dY.png",
+    tag: "life",
+  },
+  {
+    img: "https://i.imgur.com/AhF2ucP.jpg",
+    tag: "life",
+  },
+  {
+    img: "https://i.imgur.com/UVEOM4x.jpg",
+    tag: "life",
+  },
+  {
+    img: "https://i.imgur.com/HKptrJJ.png",
+    tag: "life",
   },
 ];
 

@@ -36,7 +36,7 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <Row className="mb-1 mb-4 pt-md-1">
+        <Row className="mb-1 mb-4 pt-md-1 d-flex" style={{ gap: "0.2rem" }}>
           <Col className="col-auto">
             <div
               id="button_p"
@@ -65,7 +65,7 @@ export const Portfolio = () => {
             </div>
           </Col>
         </Row>
-        <div className="mb-5 po_items_ho">
+        <div className="mb-5 po_items_ho d-flex flex-wrap justify-content-start">
           {images.map((data, i) => {
             return (
               <div key={i} className="po_item">

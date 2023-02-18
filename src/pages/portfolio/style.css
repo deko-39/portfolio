@@ -1,24 +1,16 @@
 .po_items_ho {
-  column-width: 15em;
-  -moz-column-width: 15em;
-  -webkit-column-width: 15em;
-  column-gap: 4rem;
-  -moz-column-gap: 4rem;
-  -webkit-column-gap: 4rem;
+  gap: 1rem;
 }
 
 .po_item {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  margin: 0.5rem auto;
+  flex-basis: 30%;
   position: relative;
   background: var(--secondary-color);
   padding: 6px;
   border: 1px solid var(--secondary-color);
   transition: 0.3s ease;
   font-size: 0;
-  /* min-height: 300px; */
+  height: fit-content;
 }
 
 .po_item img {
